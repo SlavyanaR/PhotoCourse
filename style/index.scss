@@ -1,7 +1,10 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts/fonts.css";
 
+@import "variables";
+
 /*Blocks*/
-@import "../style/blocks/header";
+@import "blocks/body";
+@import "blocks/header";
 
 

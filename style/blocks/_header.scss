@@ -5,7 +5,7 @@
     align-items: center;
     background-color: $red-background-color;
     min-height: 84px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 50px;
 
     &__list {
@@ -13,9 +13,11 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        color: #FBFBFB;
+        color: $white-color;
         font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-weight: 400;
+        margin: 0;
+        padding: 0;
     }
 
     &__list-item {
@@ -28,5 +30,12 @@
         &:last-of-type{
             margin-right: 0; 
         }
+    }
+    &__icon{
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
     }
 }

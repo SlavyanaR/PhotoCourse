@@ -2,8 +2,11 @@
 @import url(c:\Users\sca\Documents\GitHub\PhotoCourse\vendor\fonts\fonts.css);
 /*Blocks*/
 .body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: 1280px;
+  min-width: 320px;
+  text-rendering: optimizeLegibility;
 }
 
 .header {
@@ -19,7 +22,7 @@
           align-items: center;
   background-color: #DF2626;
   min-height: 84px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 50px;
 }
 
@@ -37,6 +40,8 @@
   color: #FBFBFB;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 .header__list-item {
@@ -49,5 +54,115 @@
 
 .header__list-item:last-of-type {
   margin-right: 0;
+}
+
+.header__icon {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.course {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  grid-auto-flow: column;
+  gap: 76px;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 50px;
+}
+
+.course__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-auto-rows: auto;
+}
+
+.course__title {
+  font-size: 100px;
+}
+
+.course__text {
+  font-size: 20px;
+}
+
+.course__button {
+  width: 228px;
+  height: 49px;
+  border: 2px solid #000000;
+  border-radius: 9999px;
+}
+
+.course__image {
+  width: 642px;
+  height: 555px;
+}
+
+.composiotion {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  grid-auto-flow: column;
+  gap: 76px;
+  color: #000000;
+  background-color: #FFCE00;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 50px;
+}
+
+.composiotion__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-auto-rows: auto;
+}
+
+.composiotion__text {
+  font-size: 18px;
+}
+
+.composiotion__title {
+  font-size: 64px;
+}
+
+.composiotion__image {
+  width: 642px;
+  height: 685px;
+}
+
+.composiotion__button {
+  width: 228px;
+  height: 49px;
+  border: 2px solid #000000;
+  border-radius: 9999px;
+}
+
+.composiotion__lists {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 56px;
+  list-style: none;
+}
+
+.composiotion__lists-item {
+  font-size: 18px;
 }
 /*# sourceMappingURL=index.css.map */
